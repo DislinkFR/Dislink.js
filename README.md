@@ -1,2 +1,2 @@
 # Dislink.js
-The official 
+The official librairy of Dislink.fr
