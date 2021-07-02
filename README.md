@@ -1,5 +1,5 @@
 <div align="center">
-  <a><img style="width: 50%" src="https://dislink.fr/img/logo.png"></a>
+  <a><img width="200" src="https://dislink.fr/logo.svg"></a>
 </div>
 # Dislink.js
 The official librairy of Dislink.fr
