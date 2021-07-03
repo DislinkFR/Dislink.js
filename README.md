@@ -19,7 +19,7 @@ npm i dislink.js
 const dislink = require("dislink.js"),
     app = new dislink()
 
-app.links({ filter: "click" }).then(data => {
+app.links({ filter: "clicks" }).then(data => {
     data.forEach(element => {
         console.log(element.url)
     });
