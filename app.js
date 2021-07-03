@@ -16,14 +16,14 @@ class Main {
             console.log("#### ########## ####");
         }
         this.links = async(option = {}) => {
-            const filterOption = ["click", "name"];
+            const filterOption = ["clicks", "name"];
             console.log(filterOption.includes(option.filter))
             if (option.filter && !filterOption.includes(option.filter)) {
                 console.log("Unappropried filter.\n Try one of this list :\n" + filterOption.join(", "))
                 return;
             }
             switch (option.filter) {
-                case "click":
+                case "clicks":
                     var list = await axios.get("https://api.dislink.fr/links/click");
                     break;
                 case "name":
