@@ -24,7 +24,7 @@ class Main {
             }
             switch (option.filter) {
                 case "clicks":
-                    var list = await axios.get("https://api.dislink.fr/links/click");
+                    var list = await axios.get("https://api.dislink.fr/links/clicks");
                     break;
                 case "name":
                     var list = await axios.get("https://api.dislink.fr/links/name");
