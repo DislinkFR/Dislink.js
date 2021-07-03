@@ -5,7 +5,7 @@
 ## Dislink.JS
 
 The official librairy of [Dislink.fr](https://dislink.fr)<br>
-This librairy use Axios for making all of his request
+This librairy use Axios for making all of his requests
 
 
 ## Get all links filtered by clicks
