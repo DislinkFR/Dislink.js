@@ -8,7 +8,7 @@ The official librairy of [Dislink.fr](https://dislink.fr)<br>
 This librairy use Axios for making all of his requests
 
 ## installation
-
+for installing this librairy, you can use this command :
 ```bash
 npm i dislink.js
 ```
@@ -19,7 +19,7 @@ npm i dislink.js
 const dislink = require("dislink.js"),
     app = new dislink()
 
-app.links({ filter: "test" }).then(data => {
+app.links({ filter: "click" }).then(data => {
     data.forEach(element => {
         console.log(element.url)
     });
