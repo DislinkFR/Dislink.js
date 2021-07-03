@@ -7,6 +7,11 @@
 The official librairy of [Dislink.fr](https://dislink.fr)<br>
 This librairy use Axios for making all of his requests
 
+## installation
+
+```bash
+npm i dislink.js
+```
 
 ## Get all links filtered by clicks
 
