@@ -16,12 +16,11 @@ npm i dislink.js
 ## Get all links filtered by clicks
 
 ```js
-const dislink = require("dislink.js"),
-    app = new dislink()
+const { links } = require("dislink.js"),
 
-app.links({ filter: "clicks" }).then(data => {
+new links.fetch({ filter: "clicks" }).then(data => {
     data.forEach(element => {
-        console.log(element.url)
+        console.log(element)
     });
-})
+});
 ```
