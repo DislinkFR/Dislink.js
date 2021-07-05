@@ -23,4 +23,11 @@ new links.fetch({ filter: "clicks" }).then(data => {
         console.log(element)
     });
 });
+
+/* 
+You can filter by :
+- clicks
+- name
+*/
+
 ```
